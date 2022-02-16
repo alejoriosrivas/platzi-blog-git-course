@@ -6,6 +6,4 @@ Para arreglar bugs se crea una rama llamada bugfixing, hotfix
 
 Los conflictos son errores generados por incompatibilidades entre archivos por versiones
 
-Nuevos cambios desde dev
-
-sdad21e2e12''21'e1.
+Nuevos cambios desde la rama Development
