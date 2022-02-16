@@ -29,3 +29,24 @@ git show archivo muestra los cambios hechos en un archivo
 git diff archivoAComparar Compara la version actual de un archivo con la version anterior
 
 pwd para ver ruta actual
+
+git log --stat nos permite ver los cambios hechos de forma descriptiva con bytes que cambiaron
+
+git checkout master archivo Nos trae la version de la rama principal del archivo
+
+git rm elimina archivos sin eliminar el historial de versiones, osea que lo podemos recuperar viajando en el tiempo entre versiones
+       se debe usar con flags
+       --cached: Elimina los archivos del repo local y del area staging, manteniendolos en el Hard Disk. Osea que le dice a Git que 
+       no siga trackeando el historial de este archivo, será untracked
+
+       --force: Elimina los archivos del repo local y del Hard Disk, pero aún así podemos acceder a sus registros de existencia y recuperarlo
+       con comandos más avanzados
+
+git reset Nos ayuda a volver en el tiempo, parecido a checkout solo que checkout es para ver, reset elimina la version actual por la version del
+pasado que le hayamos indicado, con este no hay vuelta a atrás, por eso es peligroso y solo se usa en casos de emergencia con flags
+        --hard borra toda la información que tenemos en staging, borra todo, desde staging hasta los commits
+        --soft borra todo pero mantiene los archivos del area de staging para poder aplicar estos últimos cambios desde un commit anterior al actual
+        (el que se le aplicó el reset --soft), borra el historial y los registros
+
+git reset HEAD No es para borrar archivos, sino que es para bajar archivos del estado Staging al estado Unestaged, para evitar que se envíen en un commit
+               sin necesidad de ser borrados
