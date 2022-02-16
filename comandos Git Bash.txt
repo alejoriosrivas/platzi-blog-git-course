@@ -1,0 +1,15 @@
+ls -la Ver comandos ocultos
+
+rm file Remueve el archivo 
+
+rm --cached Todavia en la memoria RAM
+
+git commit -m "message" hacer un commit con 
+
+git config --list muestra las opciones de configuracion
+
+git config --list --show-origin muestra las rutas donde se guardan las configuraciones
+
+git config --global Configurar todos los usuarios, de forma global
+
+git config --global user.name "nombre", user.email "email"
