@@ -13,3 +13,19 @@ git config --list --show-origin muestra las rutas donde se guardan las configura
 git config --global Configurar todos los usuarios, de forma global
 
 git config --global user.name "nombre", user.email "email"
+
+cat archivo muestra la informacion dentro del archivo
+
+code archivo abre el archivo para modificarlo en caja de texto
+
+git add . o git add archivo agrega los archivos al estado de Staged para poder hacer commit 
+
+git log muestra el historial de commits 
+
+git merge ramaOrigenDeCambios Esto es para unir cambios entre ramas
+
+git show archivo muestra los cambios hechos en un archivo
+
+git diff archivoAComparar Compara la version actual de un archivo con la version anterior
+
+pwd para ver ruta actual

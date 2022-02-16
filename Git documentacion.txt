@@ -1,0 +1,7 @@
+Por defecto estamos en la rama MASTER
+
+Para realizar experimentos creamos una rama nueva llamada Experimentos, Development, testing
+
+Para arreglar bugs se crea una rama llamada bugfixing, hotfix
+
+Los conflictos son errores generados por incompatibilidades entre archivos por versiones
