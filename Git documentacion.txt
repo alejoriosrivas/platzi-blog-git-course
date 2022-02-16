@@ -5,3 +5,5 @@ Para realizar experimentos creamos una rama nueva llamada Experimentos, Developm
 Para arreglar bugs se crea una rama llamada bugfixing, hotfix
 
 Los conflictos son errores generados por incompatibilidades entre archivos por versiones
+
+Nuevos cambios desde dev
