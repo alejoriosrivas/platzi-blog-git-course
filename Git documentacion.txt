@@ -8,4 +8,4 @@ Los conflictos son errores generados por incompatibilidades entre archivos por v
 
 Nuevos cambios desde la rama development
 
-Nueva linea agregada con nuevo cambio
+Nueva linea agregada modificada
