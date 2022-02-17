@@ -95,3 +95,13 @@ Ejemplo
 git tag -a v0.1 -m "Primer arreglo desde la rama fixing" 3e0adde
 
 git tag vemos todos los tags de nuestro proyecto
+
+git push origin --tags Es para pasar al repositorio remoto los tags que hemos creados nosotros para nuestras versiones
+
+para crear nuestros tags errados, que no queremos (de manera local)
+git tag -d tagName
+
+Para borrar los tags del repositorio remoto
+git push origin :refs/tags/tagName
+
+git show-branch --all nos muestra todas las ramas creadas a lo largo del tiempo
