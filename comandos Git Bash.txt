@@ -71,3 +71,12 @@ Git log
     git log > log.txt - guardar los logs en un archivo txt
 
 git commit -am sirve para hacer git add y git commit al mismo tiempo, pero no sirve para archivos nuevos
+
+git remote add origin --direction-- así es como clonamos un repositorio remoto
+
+En caso de tener el error: 
+fatal: refusing to merge unrelated histories
+podemos forzar el pull así:
+git pull origin main --allow-unrelated-histories
+
+con git branch -d rama podemos borrar una rama local
