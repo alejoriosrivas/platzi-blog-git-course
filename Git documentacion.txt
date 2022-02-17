@@ -37,3 +37,9 @@ Y con git pull estamos haciendo los 2 pasos que están arriba:
 
 En nuestro trabajo siempre tenemos una rama llamada MASTER
 
+Cuando nos conectamos mediante SSH de nuestro repositorio local a nuestro repositorio remoto
+debemos cambiar la url de clone de nuestro proyecto actual
+
+con el comando>
+git remote -v para ver las url actuales
+git remote set-url origin url................. para cambiar a la nueva URL via SSH
