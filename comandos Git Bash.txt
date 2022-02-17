@@ -54,7 +54,7 @@ git reset HEAD No es para borrar archivos, sino que es para bajar archivos del e
 Git log
     git log --oneline - Te muestra el id commit y el título del commit.
     git log --decorate- Te muestra donde se encuentra el head point en el log.
-    git log --stat - Explica el n++++++++++++úmero de líneas que se cambiaron brevemente.
+    git log --stat - Explica el número de líneas que se cambiaron brevemente.
     git log -p- Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
     git shortlog - Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
     git log --graph --oneline --decorate y
@@ -80,3 +80,6 @@ podemos forzar el pull así:
 git pull origin main --allow-unrelated-histories
 
 con git branch -d rama podemos borrar una rama local
+
+====================================
+Mensajes secretos o lláves públicas y privadas (cifrádo asimétrico de un solo camino)
