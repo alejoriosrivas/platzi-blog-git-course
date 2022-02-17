@@ -83,3 +83,15 @@ con git branch -d rama podemos borrar una rama local
 
 ====================================
 Mensajes secretos o lláves públicas y privadas (cifrádo asimétrico de un solo camino)
+
+Para crear un comando pequeño para ejecutar comandos grandes lo hacemos con 
+alias nombrecomando="comando"
+Ejemplo
+alias historial="git log --all --decorate --oneline"
+
+Para crear tags en el historial de cada commit lo hacemos así:
+git tag -a TAG(v1.0) -m "Mensaje descriptivo" commitId
+Ejemplo
+git tag -a v0.1 -m "Primer arreglo desde la rama fixing" 3e0adde
+
+git tag vemos todos los tags de nuestro proyecto
