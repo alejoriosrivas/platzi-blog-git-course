@@ -5,3 +5,35 @@ Para realizar experimentos creamos una rama nueva llamada Experimentos, Developm
 Para arreglar bugs se crea una rama llamada bugfixing, hotfix
 
 Los conflictos son errores generados por incompatibilidades entre archivos por versiones
+
+Flujo de trabajo en repositorio local Git
+
+Tenemos 1 concepto primario
+
+    - Directorio de trabajo
+
+Al momento de hacer git init aparecen 2 conceptos nuevos
+
+    - Preparación o Staging: Lugar donde se guardarán los archivos antes de enviarlos a la base de datos de cambios historicos hechos en el proyecto (Repositorio local)
+    - Repositorio local: Lugar donde se guardan los cambios historicos del proyecto
+
+Para agregar un archivo del directorio al repositorio se hace con git add, que empieza a hacer un tracking de este archivo
+
+Con git commit enviamos todo lo del area de staging al repositorio local, para luego poder ser enviado al repositorio remoto
+    - GitLab, GitHub, etc
+
+Con git push enviamos todos los cambios en el repositorio local al repositorio remoto o la nube
+
+Para bajar un proyecto de un repositorio remoto se hace con 
+    - git clone url
+
+Con git fetch bajamos los cambios que fueron subidos por otra persona al repositorio remoto, pero no lo copia en nuestros archivos
+
+Con git merge unificamos los cambios que traemos del repositorio remoto con nuestros archivos
+
+Y con git pull estamos haciendo los 2 pasos que están arriba:
+    - Baja cambios
+    - Unifica los cambios bajados con mis archivos
+
+En nuestro trabajo siempre tenemos una rama llamada MASTER
+
