@@ -1,5 +1,58 @@
-body {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(41, 41, 41);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	background-color: #fff;
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 1px solid black;
+	text-align: center;
+	overflow: hidden;
+}
+
+.header {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	padding: 5px;
+	/* justify-content: space-between; */
+	background-color: darkorchid;
+	box-shadow: 1px 0px 15px 1px #000;
+}
+
+.header h1 {
+	padding: 10px 0;
+	font-size: 15px;
+	color: white;
+}
+
+.header span {
+	padding: 10px 0;
+	font-size: 15px;
+	color: white;
+}
+
+.post_container {
+	padding: 20px;
+}
+
+.title {
+	margin: 15px 0 15px;
+}
+
+.title h1 {
+	color: palevioletred;
+}
+
+.text p {
+	text-align: justify;
 }
