@@ -47,3 +47,6 @@ git remote set-url origin url................. para cambiar a la nueva URL via S
 Solo debemos compartir la public key
 
 Las buenas practicas dicen que los archivos binarios no deben ser agregados a los repositorios, deben ser agregados aparte, deben ser ignorados
+
+El estandar de tildes es distinto en Windows, Mac y Linux
+¿Como setear UTF-8 para cada plataforma?
