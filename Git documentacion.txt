@@ -45,3 +45,5 @@ git remote -v para ver las url actuales
 git remote set-url origin url................. para cambiar a la nueva URL via SSH
 
 Solo debemos compartir la public key
+
+Las buenas practicas dicen que los archivos binarios no deben ser agregados a los repositorios, deben ser agregados aparte, deben ser ignorados
