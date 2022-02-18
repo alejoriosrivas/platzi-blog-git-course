@@ -50,3 +50,5 @@ Las buenas practicas dicen que los archivos binarios no deben ser agregados a lo
 
 El estandar de tildes es distinto en Windows, Mac y Linux
 ¿Como setear UTF-8 para cada plataforma?
+
+Fork es hacer una copia actual de un proyecto y clonarlo
