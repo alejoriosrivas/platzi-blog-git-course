@@ -6,6 +6,9 @@ Para arreglar bugs se crea una rama llamada bugfixing, hotfix
 
 Los conflictos son errores generados por incompatibilidades entre archivos por versiones
 
+<<<<<<< HEAD
+Nuevos cambios desde la rama Development
+=======
 Flujo de trabajo en repositorio local Git
 
 Tenemos 1 concepto primario
@@ -50,3 +53,4 @@ Las buenas practicas dicen que los archivos binarios no deben ser agregados a lo
 
 El estandar de tildes es distinto en Windows, Mac y Linux
 ¿Como setear UTF-8 para cada plataforma?
+>>>>>>> main
