@@ -107,3 +107,5 @@ git push origin :refs/tags/tagName
 git show-branch --all nos muestra todas las ramas creadas a lo largo del tiempo
 
 Esc + Shift + Z + Z es para salir del editor de command promt vim
+
+git remote add upstream linkgitrepository Es para agregar una nueva fuente de donde podremos hacer pulls
